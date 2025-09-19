@@ -33,3 +33,4 @@ dependencyResolutionManagement {
 include(":compose-app")
 include(":wasm-app")
 include(":jvm-app")
+include(":shared")
