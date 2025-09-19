@@ -11,6 +11,10 @@ wasmApp-version = "1.0.0"
 jvmApp-group = "com.sudarshanmhasrup.minimalist"
 jvmApp-version = "1.0.0"
 
+# shared module's configuration information
+shared-group = "compose.app.shared"
+shared-version = "1.0.0"
+
 [libraries]
 compose-multiplatform-ui = { module = "org.jetbrains.compose.ui:ui", version.ref = "composeMultiplatform" }
 compose-multiplatform-runtime = { module = "org.jetbrains.compose.runtime:runtime", version.ref = "composeMultiplatform" }
