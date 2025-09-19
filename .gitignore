@@ -9,3 +9,6 @@
 
 # Build output folder
 .build
+
+# Application & local property files
+local.properties
