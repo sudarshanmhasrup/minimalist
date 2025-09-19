@@ -13,6 +13,12 @@ kotlin {
         browser()
         binaries.executable()
     }
+
+    sourceSets {
+        wasmJsMain.dependencies {
+            implementation(libs.compose.multiplatform.ui)
+        }
+    }
 }
 
 // Custom build directory
