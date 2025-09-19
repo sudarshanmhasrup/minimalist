@@ -1,4 +1,5 @@
 rootProject.name = "Minimalist"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 @Suppress("UnstableApiUsage")
 pluginManagement {
