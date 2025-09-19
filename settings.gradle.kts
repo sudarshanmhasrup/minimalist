@@ -1,4 +1,4 @@
-rootProject.name = "NA"
+rootProject.name = "Minimalist"
 
 pluginManagement {
     repositories {
