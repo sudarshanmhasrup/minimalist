@@ -6,6 +6,9 @@ plugins {
     alias(libs.plugins.compose.compiler)
 }
 
+group = libs.versions.shared.group.get()
+version = libs.versions.shared.version.get()
+
 kotlin {
     jvm()
 
