@@ -4,6 +4,9 @@ plugins {
     alias(libs.plugins.kotlin.multiplatform)
 }
 
+group = libs.versions.wasmApp.group.get()
+version = libs.versions.wasmApp.version.get()
+
 kotlin {
     @OptIn(ExperimentalWasmDsl::class)
     wasmJs {
