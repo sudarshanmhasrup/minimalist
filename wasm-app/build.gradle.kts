@@ -17,10 +17,9 @@ kotlin {
     }
 
     sourceSets {
-        commonMain.dependencies {
-            implementation(libs.compose.multiplatform.runtime)
-            implementation(libs.compose.multiplatform.ui)
-        }
+       wasmJsMain.dependencies {
+           implementation(libs.compose.multiplatform.ui)
+       }
     }
 }
 
